@@ -186,3 +186,65 @@ hr
 {
     margin-right : 25px;
 }
+
+.left-column
+{
+    padding-right : 10%;
+}
+
+.hero h1
+{
+    font-size   : 45px;
+    color       : #ffffff;
+    font-family : 'Museo Sans W01_900';
+    font-weight : normal;
+    line-height : 1.2em;
+}
+
+h1
+{
+    font-size   : 28px;
+    color       : #222222;
+    font-family : 'Museo Sans W01_900';
+    font-weight : normal;
+}
+
+h2
+{
+    font-size   : 21px;
+    color       : #222222;
+    font-family : 'Museo Sans W01_900';
+    font-weight : normal;
+}
+
+p
+{
+    font-size   : 16px;
+    line-height : 1.4em;
+    color       : #444444;
+    font-family : 'Museo Sans W01_500';
+}
+
+p em
+{
+    font-family : 'MuseoSansW01-500Italic';
+}
+
+p.hero
+{
+    font-size   : 18px;
+    color       : #ffffff;
+    line-height : 1.5em;
+}
+
+p a
+{
+    color : #bd2933;
+}
+
+footer
+{
+    font-size   : 12px;
+    color       : #444444;
+    line-height : 1.8em;
+}
