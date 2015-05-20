@@ -97,7 +97,7 @@ body
 {
     font-size   : 2.5em;
     color       : #ffffff;
-    font-family : 'Museo Sans W01_900';
+    font-family : 'Museo Sans W01_900', sans-serif;
     font-weight : normal;
     line-height : 1.2;
 }
@@ -106,7 +106,7 @@ h1
 {
     font-size   : 1.875em;
     color       : #222222;
-    font-family : 'Museo Sans W01_900';
+    font-family : 'Museo Sans W01_900', sans-serif;
     font-weight : normal;
 }
 
@@ -114,7 +114,7 @@ h2
 {
     font-size   : 1.875em;
     color       : #222222;
-    font-family : 'Museo Sans W01_900';
+    font-family : 'Museo Sans W01_900', sans-serif;
     font-weight : normal;
 }
 
@@ -123,12 +123,12 @@ p
     font-size     : 1.375em;
     line-height   : 1.4;
     color         : #444444;
-    font-family   : 'Museo Sans W01_500';
+    font-family : 'Museo Sans W01_500', sans-serif;
 }
 
 p em
 {
-    font-family : 'MuseoSansW01-500Italic';
+    font-family : 'MuseoSansW01-500Italic', sans-serif;
 }
 
 .hero p
@@ -170,11 +170,6 @@ footer
 .slick-center
 {
     opacity : 1;
-}
-
-.rotate90
-{
-    transform : rotate(90deg);
 }
 
 .rotate180y
@@ -235,7 +230,7 @@ hr
     padding-left  : 35px;
     padding-right : 35px;
     color         : #ffffff;
-    font-family   : 'Museo Sans W01_500';
+    font-family : 'Museo Sans W01_500', sans-serif;
 }
 
 .no-padding
