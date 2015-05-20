@@ -5,17 +5,16 @@ body {
 }
 
 .navbar-toggle {
-    margin: 64px 0 64px 5vw;
-    float: left;
-    padding: 0;
+    margin: 64px 0;
+    padding: 0 0 0 5vw;
     border: 0;
 }
 
 .phone {
     position: relative;
     float: right;
-    padding: 0;
-    margin: 64px 5vw 64px 0;
+    padding: 0 5vw 0 0;
+    margin: 64px 0;
     background: transparent none;
 }
 
