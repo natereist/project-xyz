@@ -10,7 +10,8 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link href="css/project-xyz.css" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/f91cb743-8571-420b-a73b-3a25ce6dffb3.css"/>
+    <link type="text/css" rel="stylesheet"
+          href="http://fast.fonts.net/cssapi/f91cb743-8571-420b-a73b-3a25ce6dffb3.css"/>
     <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
     <script src="js/respond.min.js"></script>
@@ -27,9 +28,9 @@
         </div>
         <div class="collapse navbar-collapse navbar-right" id="xyz-navbar">
             <ul class="nav navbar-nav">
-                <li><a href="">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="">About</a></li>
-                <li><a href="">Products</a></li>
+                <li><a href="products.html">Products</a></li>
                 <li><a href="">Capabilities</a></li>
                 <li><a href="">Quality</a></li>
                 <li><a href="">Careers</a></li>
@@ -88,7 +89,7 @@
 
     <div class="row">
         <div class="col-sm-8 left-column">
-            <h2>Metal Stamping Experts. Quality-Minded Innovation.</h2>
+            <h1>Metal Stamping Experts.<br class="visible-xs"/> Quality-Minded Innovation.</h1>
 
             <p>XXX Company is a supplier of metal stampings and assemblies with multiple locations in the US and Mexico.
                 We deliver defect-free products and services on time, every time. Current products include; stainless
@@ -96,23 +97,24 @@
                 wheel covers, wheel cover retention systems, brackets, body reinforcement pieces, and frame members for
                 the automotive industry.</p>
         </div>
+        <hr class="visible-xs">
         <div class="col-sm-4">
-            <h3>Contact Us Today!</h3>
+            <h2>Contact Us Today!</h2>
 
-            <div class="col-sm-6"><img class="contact-icons" src="img/phone.png"/>231.999.999</div>
-            <div class="col-sm-6"><img class="contact-icons" src="img/email.png"/>Email Us</div>
+            <div class="col-sm-5 no-padding"><p><img class="contact-icons" src="img/phone.png"/>231.999.999</p></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-5 no-padding"><p><img class="contact-icons" src="img/email.png"/>Email Us</p></div>
             <br/>
             <hr/>
-            <h3>Quality Certified</h3>
+            <h2>Quality Certified</h2>
 
             <p><a href="#">View our ISO / TS certificates</a></p>
         </div>
+        <hr class="visible-xs">
     </div>
     <div class="row">
         <div class="col-xs-12">
-            <h2>See Our Products</h2>
-
-            <p></p>
+            <h1>See Our Products</h1>
 
             <div class="slider">
                 <div><img src="img/product.png"></div>
@@ -137,6 +139,30 @@
 
         </div>
     </div>
+    </div>
+<div class="container-fluid">
+    <footer class="hidden-xs container">
+        <div class="row">
+            <div class="col-md-2"><a href="#">Home</a><br />
+                <a href="#">About</a><br />
+                <a href="#">Products</a><br />
+                <a href="#">Capabilities</a><br />
+            </div>
+            <div class="col-md-2"><a href="#">Quality</a><br />
+                <a href="#">Contact</a><br />
+                <a href="#">FTP Login</a><br />
+            </div>
+
+            <div class="col-md-2">
+                <a href="#">Privacy Policy</a><br />
+                <a href="#">Terms and Conditions</a><br />
+                <a href="#">Terms of Use</a><br />
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3 text-right">Copyright 2014, XXX Company<br/>
+                T: 231.999.9999<span class="tabbed">F: 231.999.9999</span></div>
+        </div>
+    </footer>
 </div>
 
 <script src="js/jquery.js"></script>
@@ -174,9 +200,6 @@
                         slidesToShow: 2
                     }
                 }
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
             ]
         });
 

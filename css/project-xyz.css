@@ -2,11 +2,12 @@ body
 {
     padding-top      : 50px;
     background-color : #efefef;
+    font-size        : 16px;
 }
 
 .navbar-toggle
 {
-    margin  : 64px 0 64px 32px;
+    margin  : 64px 0 64px 5vw;
     float   : left;
     padding : 0;
     border  : 0;
@@ -14,12 +15,11 @@ body
 
 .phone
 {
-    position         : relative;
-    float            : right;
-    padding          : 0;
-    margin           : 64px 32px 64px 0;
-    background-color : transparent;
-    background-image : none;
+    position   : relative;
+    float      : right;
+    padding    : 0;
+    margin     : 64px 5vw 64px 0;
+    background : transparent none;
 }
 
 .navbar-inverse
@@ -39,6 +39,10 @@ body
 
 @media (max-width : 767px)
 {
+    p
+    {
+        margin-bottom : 0;
+    }
     body
     {
         padding-top : 177px;
@@ -60,58 +64,90 @@ body
         display  : block;
         width    : 100%;
         margin   : 0;
-        padding  : 5%;
+        padding  : 5vw;
         left     : 0;
         bottom   : 0;
         position : relative;
-        /*bottom: -100%;*/
-        /*margin-bottom: -100%;*/
+    }
+
+    .row > div
+    {
+        padding-left  : 5vw;
+        padding-right : 5vw;
     }
 
     .carousel-caption h1
     {
         margin-top : 0;
     }
+
+    h2
+    {
+        margin : 0;
+    }
+
+    p, h2
+    {
+        padding-top    : 20px;
+        padding-bottom : 20px;
+    }
 }
 
-@media (min-width : 768px)
+.hero h1
 {
-    .carousel-indicators
-    {
-        left        : 0;
-        right       : auto;
-        margin-left : 3%;
-        padding     : 3.5%;
-        width       : 100%;
-        text-align  : left;
-    }
+    font-size   : 2.5em;
+    color       : #ffffff;
+    font-family : 'Museo Sans W01_900';
+    font-weight : normal;
+    line-height : 1.2;
+}
 
-    .carousel-indicators li
-    {
-        width            : 12px;
-        height           : 12px;
-        background-color : #ffffff;
-        opacity          : 0.5;
-        alignment        : bottom;
-    }
+h1
+{
+    font-size   : 1.875em;
+    color       : #222222;
+    font-family : 'Museo Sans W01_900';
+    font-weight : normal;
+}
 
-    .carousel-indicators .active
-    {
-        opacity : 1;
-    }
+h2
+{
+    font-size   : 1.875em;
+    color       : #222222;
+    font-family : 'Museo Sans W01_900';
+    font-weight : normal;
+}
 
-    .carousel-caption
-    {
-        top          : 0;
-        bottom       : auto;
-        left         : 0;
-        right        : auto;
-        height       : 100%;
-        margin-left  : 3%;
-        margin-right : 65%;
-        padding      : 3.5%;
-        opacity      : 0.85;
-    }
+p
+{
+    font-size     : 1.375em;
+    line-height   : 1.4;
+    color         : #444444;
+    font-family   : 'Museo Sans W01_500';
+}
+
+p em
+{
+    font-family : 'MuseoSansW01-500Italic';
+}
+
+.hero p
+{
+    font-size   : 1.5em;
+    color       : #ffffff;
+    line-height : 1.5;
+}
+
+p a
+{
+    color : #bd2933;
+}
+
+footer
+{
+    font-size   : 12px;
+    color       : #444444;
+    line-height : 1.8;
 }
 
 .carousel-caption
@@ -180,71 +216,149 @@ hr
     border           : none;
     height           : 1px;
     background-color : #aaaaaa;
+    margin-top       : 50px;
+    margin-bottom    : 50px;
 }
 
 .contact-icons
 {
-    margin-right : 25px;
+    margin-right : 15px;
 }
 
 .left-column
 {
-    padding-right : 10%;
+    padding-right : 3%;
 }
 
-.hero h1
+.nav > li > a
 {
-    font-size   : 45px;
-    color       : #ffffff;
-    font-family : 'Museo Sans W01_900';
-    font-weight : normal;
-    line-height : 1.2em;
+    padding-left  : 35px;
+    padding-right : 35px;
+    color         : #ffffff;
+    font-family   : 'Museo Sans W01_500';
 }
 
-h1
+.no-padding
 {
-    font-size   : 28px;
-    color       : #222222;
-    font-family : 'Museo Sans W01_900';
-    font-weight : normal;
+    padding : 0;
+}
+.col-sm-8 > .row
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media (min-width : 768px)
+{
+
+
+    .nav > li:first-child > a
+    {
+        padding-left : 0;
+    }
+
+    .nav > li:last-child > a
+    {
+        padding-right : 0;
+    }
+
+    hr
+    {
+        margin-bottom : 25px;
+        margin-top    : 25px;
+    }
+
+    .hero h1
+    {
+        font-size  : 2.8125em;
+        margin-top : 0;
+    }
+
+    h1
+    {
+        font-size : 1.75em;
+    }
+
+    h2
+    {
+        font-size : 1.3125em;
+    }
+
+    p
+    {
+        font-size : 1em;
+    }
+
+    .hero p
+    {
+        font-size : 1.125em;
+    }
+
+    footer
+    {
+        font-size : 0.75em;
+    }
+
+    .carousel-indicators
+    {
+        left        : 0;
+        right       : auto;
+        margin-left : 3%;
+        padding     : 3.5% 3.5% 0;
+        width       : 100%;
+        text-align  : left;
+    }
+
+    .carousel-indicators li
+    {
+        width            : 12px;
+        height           : 12px;
+        background-color : #ffffff;
+        opacity          : 0.5;
+        alignment        : bottom;
+    }
+
+    .carousel-indicators .active
+    {
+        opacity : 1;
+    }
+
+    .carousel-caption
+    {
+        top          : 0;
+        bottom       : auto;
+        left         : 0;
+        right        : auto;
+        height       : 100%;
+        margin-left  : 3%;
+        margin-right : 65%;
+        padding      : 3.5%;
+        opacity      : 0.85;
+    }
 }
 
-h2
+footer .row
 {
-    font-size   : 21px;
-    color       : #222222;
-    font-family : 'Museo Sans W01_900';
-    font-weight : normal;
+    padding-top    : 25px;
+    padding-bottom : 25px;
 }
 
-p
+footer a, footer a:hover
 {
-    font-size   : 16px;
-    line-height : 1.4em;
     color       : #444444;
-    font-family : 'Museo Sans W01_500';
+    line-height : 1.8;
+}
+.tabbed
+{
+    padding-left : 3em;
+}
+.container-fluid
+{
+    background : white linear-gradient(to top, #dddddd 0%, white 100%);
+    margin: 0;
 }
 
-p em
+.col-sm-8 > h2
 {
-    font-family : 'MuseoSansW01-500Italic';
-}
-
-p.hero
-{
-    font-size   : 18px;
-    color       : #ffffff;
-    line-height : 1.5em;
-}
-
-p a
-{
-    color : #bd2933;
-}
-
-footer
-{
-    font-size   : 12px;
-    color       : #444444;
-    line-height : 1.8em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
