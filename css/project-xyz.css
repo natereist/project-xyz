@@ -45,7 +45,6 @@ body {
     }
 
     .container {
-        overflow: auto;
         padding-left: 0;
         padding-right: 0;
     }
