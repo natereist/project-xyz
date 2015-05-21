@@ -32,6 +32,14 @@ body {
 }
 
 @media (max-width: 767px) {
+    .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+        margin: 0;
+    }
+
+    .row {
+        margin: 0;
+    }
+
     p {
         margin-bottom: 0;
     }
