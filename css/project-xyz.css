@@ -182,50 +182,6 @@ footer a, footer a:hover {
     margin-bottom: 0;
 }
 
-@media (max-width: 360px) {
-    .hero h1 {
-        font-size: 1.25em;
-    }
-
-    h1 {
-        font-size: 0.93755em;
-    }
-
-    h2 {
-        font-size: 0.93755em;
-    }
-
-    p {
-        font-size: 0.6875em;
-    }
-
-    .hero p {
-        font-size: 0.75em;
-    }
-}
-
-@media (min-width: 321px) and (max-width: 767px) {
-    .hero h1 {
-        font-size: 2.5em;
-    }
-
-    h1 {
-        font-size: 1.875em;
-    }
-
-    h2 {
-        font-size: 1.875em;
-    }
-
-    p {
-        font-size: 1.375em;
-    }
-
-    .hero p {
-        font-size: 1.5em;
-    }
-}
-
 @media (max-width: 767px) {
     .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
         margin: 0;
