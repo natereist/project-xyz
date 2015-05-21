@@ -204,7 +204,7 @@ footer a, footer a:hover {
     }
 }
 
-@media (min-width: 361px) and (max-width: 767px) {
+@media (min-width: 321px) and (max-width: 767px) {
     .hero h1 {
         font-size: 2.5em;
     }
