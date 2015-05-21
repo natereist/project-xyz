@@ -32,7 +32,7 @@ body {
 }
 
 .hero h1 {
-    font-size: 2.5em;
+    font-size: 6.25vw;
     color: #ffffff;
     font-family: 'Museo Sans W01_900', sans-serif;
     font-weight: normal;
@@ -40,21 +40,21 @@ body {
 }
 
 h1 {
-    font-size: 1.875em;
+    font-size: 4.6875vw;
     color: #222222;
     font-family: 'Museo Sans W01_900', sans-serif;
     font-weight: normal;
 }
 
 h2 {
-    font-size: 1.875em;
+    font-size: 4.6875vw;
     color: #222222;
     font-family: 'Museo Sans W01_900', sans-serif;
     font-weight: normal;
 }
 
 p {
-    font-size: 1.375em;
+    font-size: 3.4375vw;
     line-height: 1.4;
     color: #444444;
     font-family: 'Museo Sans W01_500', sans-serif;
@@ -65,7 +65,7 @@ p em {
 }
 
 .hero p {
-    font-size: 1.5em;
+    font-size: 3.75vw;
     color: #ffffff;
     line-height: 1.5;
 }
