@@ -31,66 +31,6 @@ body {
     color: #ffffff;
 }
 
-@media (max-width: 767px) {
-    .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
-        margin: 0;
-    }
-
-    .row {
-        margin: 0;
-    }
-
-    p {
-        margin-bottom: 0;
-    }
-
-    body {
-        padding-top: 177px;
-    }
-
-    .navbar-inverse {
-        background: rgba(138, 138, 138, 0.95);
-    }
-
-    .container {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .carousel-caption {
-        display: block;
-        width: 100%;
-        margin: 0;
-        padding: 5vw;
-        left: 0;
-        bottom: 0;
-        position: relative;
-    }
-
-    .row > div {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .container > .row {
-        padding-left: 5vw;
-        padding-right: 5vw;
-    }
-
-    .carousel-caption h1 {
-        margin-top: 0;
-    }
-
-    h2 {
-        margin: 0;
-    }
-
-    p, h2 {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-}
-
 .hero h1 {
     font-size: 2.5em;
     color: #ffffff;
@@ -218,6 +158,132 @@ hr {
     padding-bottom: 20px;
 }
 
+footer .row {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer a, footer a:hover {
+    color: #444444;
+    line-height: 1.8;
+}
+
+.tabbed {
+    padding-left: 3em;
+}
+
+.container-fluid {
+    background: white linear-gradient(to top, #dddddd 0%, white 100%);
+    margin: 0;
+}
+
+.col-sm-8 > h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media (max-width: 639px) {
+    .hero h1 {
+        font-size: 1.25em;
+    }
+
+    h1 {
+        font-size: 0.93755em;
+    }
+
+    h2 {
+        font-size: 0.93755em;
+    }
+
+    p {
+        font-size: 0.6875em;
+    }
+
+    .hero p {
+        font-size: 0.75em;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+    .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+        margin: 0;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    body {
+        padding-top: 177px;
+    }
+
+    .navbar-inverse {
+        background: rgba(138, 138, 138, 0.95);
+    }
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .carousel-caption {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 5vw;
+        left: 0;
+        bottom: 0;
+        position: relative;
+    }
+
+    .row > div {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .container > .row {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .carousel-caption h1 {
+        margin-top: 0;
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+    p, h2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.5em;
+    }
+
+    h1 {
+        font-size: 1.875em;
+    }
+
+    h2 {
+        font-size: 1.875em;
+    }
+
+    p {
+        font-size: 1.375em;
+    }
+
+    .hero p {
+        font-size: 1.5em;
+    }
+}
+
 @media (min-width: 768px) {
 
     .nav > li:first-child > a {
@@ -290,28 +356,4 @@ hr {
         padding: 3.5%;
         opacity: 0.85;
     }
-}
-
-footer .row {
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-footer a, footer a:hover {
-    color: #444444;
-    line-height: 1.8;
-}
-
-.tabbed {
-    padding-left: 3em;
-}
-
-.container-fluid {
-    background: white linear-gradient(to top, #dddddd 0%, white 100%);
-    margin: 0;
-}
-
-.col-sm-8 > h2 {
-    margin-top: 0;
-    margin-bottom: 0;
 }
