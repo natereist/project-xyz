@@ -182,7 +182,7 @@ footer a, footer a:hover {
     margin-bottom: 0;
 }
 
-@media (max-width: 639px) {
+@media (max-width: 319px) {
     .hero h1 {
         font-size: 1.25em;
     }
@@ -204,7 +204,7 @@ footer a, footer a:hover {
     }
 }
 
-@media (min-width: 640px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
         margin: 0;
     }
