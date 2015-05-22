@@ -320,6 +320,6 @@ footer a, footer a:hover {
         margin-left: 3%;
         margin-right: 65%;
         padding: 3.5%;
-        opacity: 0.85;
+        background-color: rgba(189,41,51,0.85);
     }
 }
