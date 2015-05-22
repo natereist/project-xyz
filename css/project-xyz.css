@@ -19,6 +19,10 @@ body {
     background: transparent none;
 }
 
+.carousel-indicators .active {
+    margin: 1px;
+}
+
 .navbar-inverse {
     background: white linear-gradient(to top, black 0%, #333333 100%);
 }
