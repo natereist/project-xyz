@@ -56,7 +56,7 @@ h2 {
 
 p {
     font-size: 3.4375vw;
-    line-height: 1.4;
+    line-height: 1.5;
     color: #444444;
     font-family: 'Museo Sans W01_500', sans-serif;
 }
@@ -79,6 +79,7 @@ footer {
     font-size: 12px;
     color: #444444;
     line-height: 1.8;
+    font-family: 'Museo Sans W01_500', sans-serif;
 }
 
 .carousel-caption {
