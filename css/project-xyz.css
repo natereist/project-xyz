@@ -29,6 +29,7 @@ body {
 
 .navbar-inverse .navbar-nav > li > a {
     color: #ffffff;
+    font-size: 0.875em;
 }
 
 .hero h1 {
