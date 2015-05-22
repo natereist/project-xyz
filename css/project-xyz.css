@@ -105,10 +105,14 @@ footer {
 }
 
 .rotate180y {
+    -ms-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
 .rotate180 {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
