@@ -324,7 +324,7 @@ footer a, footer a:hover {
     }
 }
 
-#xyz-navbar {
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+.spacing {
+    height: 2vw;
+    width: 100%;
 }
