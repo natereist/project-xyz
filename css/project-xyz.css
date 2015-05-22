@@ -5,7 +5,7 @@ body {
 }
 
 .navbar-toggle {
-    margin: 64px 0;
+    margin: 40px 0;
     padding: 0 0 0 5vw;
     border: 0;
     float: left;
@@ -15,7 +15,7 @@ body {
     position: relative;
     float: right;
     padding: 0 5vw 0 0;
-    margin: 64px 0;
+    margin: 40px 0;
     background: transparent none;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .hero h1 {
-    font-size: 6.25vw;
+    font-size: 6vw;
     color: #ffffff;
     font-family: 'Museo Sans W01_900', sans-serif;
     font-weight: normal;
