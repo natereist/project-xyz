@@ -149,6 +149,13 @@ hr {
     font-family: 'Museo Sans W01_500', sans-serif;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav > li > a {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
 .no-padding {
     padding: 0;
 }
