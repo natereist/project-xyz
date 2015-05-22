@@ -1,5 +1,5 @@
 body {
-    padding-top: 50px;
+    padding-top: 8vw;
     background-color: #efefef;
     font-size: 16px;
 }
@@ -146,6 +146,8 @@ hr {
 .nav > li > a {
     padding-left: 35px;
     padding-right: 35px;
+    padding-top: 3.5vw;
+    padding-bottom: 3.5vw;
     color: #ffffff;
     font-family: 'Museo Sans W01_500', sans-serif;
 }
