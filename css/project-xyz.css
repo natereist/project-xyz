@@ -323,3 +323,8 @@ footer a, footer a:hover {
         background-color: rgba(189,41,51,0.85);
     }
 }
+
+#xyz-navbar {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
