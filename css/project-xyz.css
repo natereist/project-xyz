@@ -259,6 +259,10 @@ footer a, footer a:hover {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
+    .img-responsive {
+        max-width: 85%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -368,9 +372,4 @@ footer a, footer a:hover {
 .spacing {
     height: 2vw;
     width: 100%;
-}
-
-.img-responsive-smaller {
-    max-width: 90%;
-    height: auto;
 }
