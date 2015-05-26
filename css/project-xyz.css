@@ -369,3 +369,8 @@ footer a, footer a:hover {
     height: 2vw;
     width: 100%;
 }
+
+.img-responsive-smaller {
+    max-width: 90%;
+    height: auto;
+}
